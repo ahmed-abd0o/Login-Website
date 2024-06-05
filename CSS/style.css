@@ -1,0 +1,81 @@
+.titi {
+    font-family: "Titillium Web", sans-serif;
+}
+.home {
+    background-color: #24353F;
+}
+.home .box-shadow {
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.home input {
+    background-color: #24353F;
+    color: white;
+}
+.home input:focus{
+    color: white;
+}
+.home input::placeholder{
+    color: white;
+}
+.home input:focus{
+    box-shadow : none ;
+}
+
+.home h1 {
+    color: #17a2b8;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+button.sign {
+    --bs-btn-color: #17a2b8;
+    --bs-btn-border-color: #17a2b8;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #17a2b8;
+    --bs-btn-hover-border-color: rgb(23, 162, 184);
+    --bs-btn-focus-shadow-rgb: 23,162,184;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #17a2b8;
+    --bs-btn-active-border-color: #17a2b8;
+    --bs-btn-disabled-color: #17a2b8;
+    --bs-btn-disabled-border-color: #17a2b8;
+}
+button.sign:focus{
+    box-shadow: 0 0 0 .2rem rgba(23,162,184,.5);
+}
+
+@media (min-width: 576px) {
+    .container-sm, .container {
+      max-width: 540px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container-md, .container-sm, .container {
+      max-width: 720px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container-lg, .container-md, .container-sm, .container {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 1140px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 1140px;
+    }
+  }
+
+
+  div.container.welcome{
+    margin-top: 0;
+    height: calc(100% - 62px);
+  }
+  div.container.welcome p {
+    color: #17a2b8;
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==================Google Fonts link================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <!--==================Font Awesome================== -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!--==================bootstrap================== -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!--==================Main style sheet================== -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Signin Page</title>
+</head>
+<body>
+
+    <div class="home vh-100 ">
+        <br>
+        <div class="container">
+            <div class=" box-shadow mt-4 w-75 mx-auto p-5 d-flex justify-content-center align-items-center flex-column">
+                <h1 class="titi">Smart Login System</h1>
+                <input type="text" class="form-control mx-auto m-2 rounded-1 bg-transparent " placeholder="Enter your email" >
+                <input id="nothing" type="password" class="form-control m-2 rounded-1 mx-auto bg-transparent" placeholder="Enter password">
+                <p class="fs-5 text-danger pass-email-incorrect d-none">Email or Password is incorrect</p>
+                <button id="signinButton" class="btn sign btn-outline-primary form-control mt-3">Sign in</button>
+                <p class="text-white mt-3 ">
+                    Don't have an account? <a href="index.html" class="text-decoration-none text-white">Signup</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/1.js"></script>
+</body>
+</html>
